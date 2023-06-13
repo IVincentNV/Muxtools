@@ -110,11 +110,8 @@ def TCP():
 
 def SYN():
 
-def randproxy():
 
-    ip = ".".join(map(str, (random.randint(0,255)for _ in range(4))))
 
-    return ip
 
 def randport():
 
